@@ -1,0 +1,194 @@
+.sloganMaker-Wrapper {
+  position: relative;
+}
+
+.SloganMaker-Main {
+  position: relative;
+
+  background-color: #ffffff;
+  max-width: 1120px;
+  height: 1420px;
+  width: 100%;
+  margin: -264px auto;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+}
+.SloganMaker-Body {
+  max-width: 736px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: 64px;
+}
+
+.heading {
+  font-size: 36px;
+  line-height: 42px;
+  letter-spacing: -0.04em;
+
+  color: #1a181e;
+}
+
+.slogan-title {
+  font-family: "galano grotesque-semibold";
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.sub-heading {
+  padding-top: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #4d4d4d;
+}
+.sub-hd-font {
+  font-family: "galano grotesque-regular";
+  font-weight: 400;
+}
+.input-bar-section {
+  padding-top: 48px;
+  height: 136px;
+}
+.label {
+  font-family: "galano grotesque-medium";
+  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4d4d4d;
+}
+.slogan-input {
+  padding-top: 8px;
+  width: 352px;
+  height: 48px;
+
+  border: 1px solid #d9d9d9;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.generate-slogan-btn {
+  font-family: "galano grotesque-regular";
+  font-weight: 400;
+  margin: 48px 0;
+  padding: 8px 24px;
+  width: 204px;
+  height: 50px;
+  background: #146eb4;
+  border-radius: 4px;
+  border: none;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+.generated-slogan-title {
+  border-top: 1px solid #d9d9d9;
+  padding-top: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.generated-slogan-title h5 {
+  font-family: "galano grotesque-medium";
+  font-weight: 400;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #1a181e;
+}
+.download-all-btn {
+  font-family: "galano grotesque-medium";
+
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(26, 24, 30, 0.06);
+  border: none;
+  border: 1px solid #146eb4;
+  border-radius: 4px;
+  border-color: #146eb4;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  color: #146eb4;
+  padding: 8px 24px;
+  border-width: 1px;
+}
+.slogan-section {
+  display: flex;
+  gap: 32px;
+  /* border-bottom: 1px solid #d9d9d9; */
+}
+.slogan-wrapper {
+  margin-top: 32px;
+  border-bottom: 1px solid #d9d9d9;
+  padding-bottom: 28px;
+}
+.bar-content {
+  font-family: "galano grotesque-regular";
+}
+.slogan-bar {
+  /* font-family: "galano grotesque-regular"; */
+  width: 352px;
+  height: 60px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.cross {
+  text-decoration: none;
+  position: relative;
+  position: relative;
+  top: -31px;
+  left: 325px;
+}
+.page-active {
+  padding: 4px 8px;
+  border-radius: 50%;
+  background-color: #146eb4;
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+}
+.page {
+  padding: 15px;
+  border-radius: 50%;
+  /* background-color: #146eb4; */
+  margin-right: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #146eb4;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 26px;
+}
+.next-btn {
+  float: right;
+  text-decoration: none;
+  color: #146eb4;
+}
+
+@font-face {
+  font-family: "galano grotesque-semibold";
+  src: url(../fonts/galanogrotesque-semibold.otf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: "galano grotesque-regular";
+  src: url(../fonts/galanogrotesque-regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "galano grotesque-medium";
+  src: url(../fonts/galanogrotesque-medium.otf);
+  font-weight: 400;
+}
