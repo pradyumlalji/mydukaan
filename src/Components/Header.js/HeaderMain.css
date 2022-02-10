@@ -1,0 +1,23 @@
+.HeaderMain {
+  background-color: #146eb4;
+
+  /* background-color: aliceblue; */
+  padding-bottom: 28px;
+}
+
+.blueSpace {
+  max-height: 194px;
+  background-color: #146eb4;
+  content: "";
+}
+
+.HeaderMain-body {
+  max-width: 1120px;
+  width: 100%;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
